@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.full-width {
+    width: 1240px;
+    margin: auto;
+    text-align: center;
+}
+.menu h2 {
+    background: #34495e;
+    padding: 33px 0;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 500;
+}
+.banner {
+    background: #e67e22;
+    padding: 115px;
+}
+.imgdiv{
+                                             
+}
+.imgdiv img {
+    width: 960px;
+    box-shadow: 10px 10px 10px #fff;
+}
+.article {
+    background: #34495e;
+    padding: 60px;
+}
+.article h1 {
+    color: #fff;
+    font-size: 60px;
+    padding: 20px;
+}
+.article h2 {
+    color: #3498db;
+    padding: 5px;
+    margin-bottom: 5px;
+    font-size: 35px;
+    font-weight: 300;
+}
+.article p {
+    color: #d8dce0;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.content {
+    background: #9b59b6;
+    padding: 50px;
+}
+.content p {
+    color: #e6e3e8;
+    font-size: 20px;
+}
+.content .design {
+    color: #28aa7f;
+    font-size: 26px;
+    padding: 5px 0;
+    font-weight: 900;
+    margin-top: 10px;
+}
+.content .develop {
+    color: #efc113;
+    font-size: 26px;
+    padding: 1px 0;
+    font-weight: 900;
+}
+.content .app{
+    color: #95a0a7;
+    font-size: 26px;
+    padding: 5px 0;
+    font-weight: 900;    
+} 
+.boxdiv {
+    background: #ff9814;
+    padding: 66px;
+}
+.boxtype {
+    width: 580px;
+    height: 165px;
+    background: #dcdcdc;
+    display: inline-block;
+    box-shadow: 30px 30px 2px #fff;
+    border-radius: 10px;
+    border: 4px dashed #000;
+}
+.boxtype span {
+    padding-top: 50px;
+    font-size: 31px;
+    display: inline-block;
+}
+.footer {
+    background: #2c3e50;
+}
+.footer p {
+    color: #dfe2e4;
+    padding-bottom: 43px;
+    font-size: 20px;
+    margin-bottom: 104px;
+    padding-top: 25px;
+}

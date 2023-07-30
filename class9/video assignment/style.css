@@ -1,0 +1,70 @@
+h2{
+    color: red;
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.first-div{
+    height: 200px;
+    width: 200px;
+    background: chartreuse;
+    margin: 20px 25px;
+    display: inline-block;
+}
+.first-div1{
+    height: 200px;
+    width: 200px;
+    background: rgb(0, 153, 255);
+    margin: 20px 25px;
+    display: inline-block;
+}
+.first-div2{
+    height: 200px;
+    width: 200px;
+    background: rgb(255, 0, 64);
+    margin: 20px 25px;
+    display: inline-block;
+}
+.first-div:hover{
+    background: rgb(225, 0, 255);
+    cursor: pointer;
+    transition: .5s;
+}
+.first-div1:hover{
+    background: rgb(216, 129, 22);
+    cursor: pointer;
+    transition: .5s;
+}
+.first-div2:hover{
+    background: rgb(255, 251, 0);
+    cursor: pointer;
+    transition: .5s;
+}
+.aludiv{
+    margin: auto;
+}
+ul{
+    text-align: center;
+}
+.header-menu{
+    font-size: 30px;
+}
+.footer-menu{
+    font-size: 30px;
+}
+.header-menu li:nth-child(odd) a{
+    color: green;
+    text-decoration: none;
+
+}
+.footer-menu li:first-child a{
+    color: crimson;
+}
+.footer-menu li:nth-child(4) a{
+    color: darkblue;
+    text-decoration: none;
+}
+.anotherdiv1{
+    width: ;
+}

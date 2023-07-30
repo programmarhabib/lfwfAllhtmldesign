@@ -1,0 +1,39 @@
+
+/* =======================
+       SERVICE
+======================= */
+.service h1 {
+    display: inline-block;
+    padding: 90px 30px;
+    width: 600px;
+    height: 300px;
+    text-align: center;
+    font-size: 57px;
+}
+.bg-service1{
+    background: #7d4b4b;
+    border-radius: 0px 100px 100px 0px;
+    margin-left: 210px;
+    margin-top: 40px;
+    color: #e8d5d5;
+    padding-top: 111px !important;
+}
+.bg-service2 {
+    background: #4f7d4b;
+    border-radius: 100px 0px 0px 100px;
+    margin-right: 210px;
+    color: #f49f9f;
+    padding-top: 111px !important;
+    margin-top: 33px;
+    margin-bottom: 33px;
+}
+.bg-service3{
+    background: #340e9d;
+    border-radius: 0px 100px 100px 0px;
+    margin-left: 210px;
+    margin-bottom: 30px;
+    color: #cbd7d0;
+}
+.text-right {
+    text-align: right !important;
+}

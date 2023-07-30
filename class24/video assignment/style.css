@@ -1,0 +1,411 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Rubik', sans-serif;
+}
+
+p.span,
+a {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-fluid {
+    width: 1480px;
+}
+
+.graybg {
+    background: #f9fafb;
+    padding: 100px 0;
+}
+
+/* header css */
+ul.our-primary-menu {}
+
+ul.our-primary-menu li {}
+
+ul.our-primary-menu li a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 20px;
+    color: #000;
+}
+
+ul.our-primary-menu li {
+    position: relative;
+}
+
+ul.our-primary-menu li ul {
+    position: absolute;
+    top: 254%;
+    left: 0;
+    padding-left: 0;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, .1);
+    width: 200px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .5s ease-in-out;
+
+    background: #fff;
+}
+
+ul.our-primary-menu li:hover ul {
+    opacity: 1;
+    visibility: visible;
+    top: 146%;
+}
+
+ul.our-primary-menu li ul li {
+    list-style: none;
+    padding: 10px 0;
+
+}
+
+.header-info {
+    display: flex;
+    align-items: center;
+}
+
+.serch-icon {
+
+    width: 47px;
+    text-align: center;
+    border-right: 1px solid #ddd;
+    margin-right: 17px;
+}
+
+.call-icon {
+
+    font-size: 25px;
+    color: #e73c3e;
+    margin-top: 6px;
+}
+
+.call-info span {
+    font-weight: 600;
+    color: #606060;
+}
+
+.call-info a {
+    text-decoration: none;
+    color: #000;
+}
+
+.tel-number {
+    width: 200px;
+}
+
+.btn-primary {
+    background: #e73c3e !important;
+    border: 1px solid #e73c3e !important;
+    padding: 10px 37px;
+    position: relative;
+    z-index: 1;
+}
+
+.btn-primary::after {
+    content: '';
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: #111 !important;
+    border: 1px solid #111 !important;
+    z-index: -1;
+    transition: .5s;
+    opacity: 0;
+
+}
+
+.btn-primary:hover {
+    border: 1px solid #111 !important;
+}
+
+.btn-primary:hover::after {
+    width: 100%;
+    opacity: 1;
+}
+
+/* slider setion */
+.slider-section {
+    background: url(./img/main-banner2.jpg) no-repeat top center;
+    background-attachment: fixed;
+
+}
+
+.slider-content-wrap {
+
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.slider-content {}
+
+.slider-content h6 {
+    color: #e73c3e;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 31px;
+}
+
+.slider-content h1 {
+    font-size: 59px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.slider-content p {
+    font-size: 19px;
+    margin-bottom: 28px;
+}
+
+.social-icon {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.social-icon ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.social-icon ul li {}
+
+.social-icon ul li span {
+    position: relative;
+    display: inline-block;
+    margin-right: 27px;
+}
+
+.social-icon ul li span::after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 29px;
+    background: #111;
+    top: 56%;
+    margin: auto;
+    left: 107%;
+}
+
+.social-icon ul li a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 15px;
+    color: #111;
+}
+
+/* logo section */
+.logo-section {
+    padding: 100px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.client-logo ul {}
+
+.client-logo ul li {
+    list-style: none;
+}
+
+.client-logo ul li a {}
+
+/* logo section */
+.about-section {
+    padding: 100px 0;
+}
+
+.about-img {
+    position: relative;
+}
+
+.img-div-text {
+    position: absolute;
+    bottom: -12px;
+    right: 114px;
+    background: url(./img/shape.png) no-repeat;
+    background-size: contain;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+
+    background-position: center;
+}
+
+.img-div-text h2 {
+    color: #e73c3e;
+    font-size: 66px;
+}
+
+.img-div-text p {
+    color: #111;
+    font-weight: 600;
+}
+
+.finix-text {
+    position: relative;
+}
+
+.finix-text h6 {
+    color: #e73c3e;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.finix-text h1 {
+    font-weight: 400;
+    margin-bottom: 23px;
+}
+
+.finix-text p {
+    font-size: 17px;
+}
+
+.finix-text span {
+    font-size: 19px;
+    color: #7e7c7c;
+    margin-bottom: 14px;
+    display: inline-block;
+}
+
+.finix-text ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+.finix-text ul li {
+    padding: 6px 0;
+}
+
+.finix-text ul li::before {
+    content: '\f00c';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    color: #e73c3e;
+    margin-right: 10px;
+}
+
+/* Why chose section */
+.why-chose-section {}
+
+.why-chose-text {}
+
+.why-chose-text img {
+    position: relative;
+}
+
+.play-btn-animation {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    position: absolute;
+    background: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 80px;
+    color: #e73c3e;
+    font-size: 53px;
+    bottom: 65px;
+    right: 259px;
+    transition: .5s;
+}
+.play-btn-animation:hover{
+    background: #e73c3e;
+    color: #fff;
+}
+
+.play-btn-animation::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #e73c3e;
+    position: absolute;
+    border-radius: 50%;
+    animation: habib 1.6s ease-in-out infinite;
+}
+@keyframes habib{
+    0%,30%{
+        transform: scale(0);
+        opacity: 1;
+    }
+    50%{
+        transform: scale(1.5);
+        opacity: .6;
+    }
+    
+    100%{ 
+        transform: scale(2);
+        opacity: 0;
+    }
+
+}
+.feature-item {
+    background: #fff;
+    padding: 30px;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.feature-item:hover {
+    transform: translatey(10px);
+}
+
+.feature-item:hover .ft-icon span {
+    color: #fff;
+    background: #e73c3e;
+}
+ 
+.feature-item::after {
+    content: '';
+    width: 90%;
+    height: 64%;
+    background: #fdebeb;
+    position: absolute;
+    top: -118px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 50%;
+
+}
+
+.feature-item .ft-icon {}
+
+.feature-item .ft-icon span {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    background: #fff;
+    line-height: 80px;
+    border-radius: 50%;
+    font-size: 26px;
+    color: #e73c3e;
+    position: relative;
+    z-index: 1;
+    top: 10px;
+    transition: .5s;
+}
+
+.box-1 {
+
+    margin-top: 30px;
+}
+
+.box-4 {
+
+    margin-top: -30px;
+}
+
+.feature-item h4 {}
+
+.feature-item p {}

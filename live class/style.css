@@ -1,0 +1,121 @@
+.contuct{
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+.contuct .formheader{
+    background: url(img/bg1.jpg) no-repeat center bottom;
+    background-size: cover;
+    padding: 60px;
+}
+.contuct .formheader h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 42px;
+    color: #fff;
+}
+.contuct .formheader hr{
+    color: #fff;
+}
+.contuct .formheader p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #fff;
+}
+form{
+    background: #5d9ea0;
+    padding: 60px;
+    text-align: right;
+}
+.input-name{
+    margin-bottom: 10px;
+}
+.inputicon{
+ width: 560px;
+}
+.inputicon i {
+    width: 33px;
+    height: 18px;
+    background: #eeeff4;
+    line-height: ;
+    text-align: center;
+    margin-right: -4px;
+    padding: 10px;
+}
+.inputicon input{
+    width: 560px;
+    padding: 10px 11px;
+}
+.input-name label{
+    margin-right: 20px;
+}
+#city {
+    width: 587px;
+    padding: 10px 11px;
+    background: #fff;
+} 
+.gender {
+    text-align: left;
+    margin-left: 304px;
+}
+.gender .radio{
+    
+}
+.service {
+    text-align: left;
+    margin-left: 306px;
+}
+.cv {
+    text-align: left;
+    margin-left: 285px;
+}
+.cv .cv1 {
+    border: 1px solid #fff;
+    padding: 9px 352px 10px 0px;
+}
+.cv1 i{
+    width: 33px;
+    height: 18px;
+    background: #eeeff4;
+    line-height: ;
+    text-align: center;
+    margin-right: -4px;
+    padding: 10px;    
+}
+
+.mess {
+    text-align: left;
+    margin-left: 298px;
+}
+.mess i {
+    width: 33px;
+    height: 18px;
+    background: #eeeff4;
+    text-align: center;
+    margin-right: -4px;
+    padding: 10px;
+    line-height: 38px;
+    display: inline-block;
+    margin: 0 auto;
+}
+textarea {
+    width: 576px;
+    margin-top: -39px;
+    display: inline-block;
+    margin-left: 138px;
+}
+.input-nam{
+    margin-right: 409px;
+    margin-top: 17px;
+}
+.submit {
+    padding: 1px 43px;
+    font-size: 25px;
+    background: red;
+    border: 1px solid red;
+    border-radius: 7px;
+    box-shadow: 2px 2px;
+    cursor: pointer;
+}
+

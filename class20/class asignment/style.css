@@ -1,0 +1,52 @@
+
+
+/* ========header css========= */
+.bg-header{
+    background: #e3f2fd;
+}
+.navbar-brand img{
+    width: 35px; 
+}
+/* =========header-bottm======== */
+.bg-breadcrumb{
+    background: #e9ecef !important;
+}
+/* ========banner======== */
+.b-imgdiv img{
+    height: 600px;
+}
+/* =======accordion======== */
+.accordion-button::after{
+    -webkit-display: none;
+    display: none;
+}
+.accordion-button b{
+    color: blue;
+}
+.accordion-button:focus b{
+    text-decoration: underline;
+    
+}
+.accordion-button:focus{
+    background: #f6f6f1;
+    border: none !important;
+    outline: none !important;
+}
+/* =======progress======== */
+
+.scrollspy-example{
+    height: 220px;
+    overflow: auto;
+    position: relative;
+}
+/* ========footer======== */
+footer{
+    background: #17a2b8;
+}
+footer p{
+    text-align: center;
+    padding: 20px 0;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14PX;
+}

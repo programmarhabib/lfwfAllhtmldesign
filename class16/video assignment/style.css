@@ -1,0 +1,134 @@
+/* =======header start======= */
+.header {
+    background: #000;
+    border-bottom: 1px solid #ddd;
+}
+
+.header-logo a {}
+
+.header-logo a img {
+
+    width: 140px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.menu {}
+
+.menu ul {
+    list-style: none;
+    text-align: right;
+    margin-bottom: 0;
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 0 20px;
+    line-height: 90px;
+    font-size: 20px;
+}
+
+.menu ul li a:hover {}
+
+/* =======banner css======= */
+.banner {
+    background: #000;
+    height: 500px;
+    border-bottom: 1px solid #ddd;
+}
+
+.content {
+    text-align: center;
+    margin-top: 200px;
+    position: relative;
+}
+
+.content h1 {
+    /* color: #fff; */
+    position: absolute;
+    font-size: 100px;
+    font-weight: bold; 
+    left: 403px;
+}
+
+.content h1:nth-child(1) {
+    color: transparent;
+    -webkit-text-stroke: 2px #03a9f4;
+}
+
+.content h1:nth-child(2) {
+    color: #03a9f4;
+    animation: animate 2s ease-in-out infinite;
+}
+
+@keyframes animate {
+
+    0%,
+    100% {
+        clip-path: polygon(1% 47%, 9% 44%, 19% 45%, 26% 50%, 33% 55%, 41% 60%, 49% 63%, 60% 63%, 72% 62%, 81% 60%, 90% 57%, 99% 53%, 100% 99%, 1% 99%);
+
+
+    }
+
+    50% {
+        clip-path: polygon(0 57%, 10% 61%, 18% 64%, 24% 69%, 32% 72%, 46% 68%, 54% 65%, 60% 59%, 70% 55%, 81% 57%, 89% 63%, 99% 69%, 100% 99%, 1% 99%);
+
+
+
+
+
+    }
+}
+
+/* ========about-css========= */
+.about {
+    background: #000;
+    border-bottom: 1px solid #ddd;
+}
+
+/* ========service-css========= */
+.service {
+    background: #000;
+    border-bottom: 1px solid #ddd;
+}
+
+.service-item {
+    box-shadow: 0 0 5px #ddd;
+    color: #fff;
+}
+
+.service-item span {
+    font-size: 100px;
+}
+
+.service-item h3 {}
+
+.service-item p {
+
+    padding: 5px 41px;
+}
+
+/* =======blog css======= */
+.contuct {
+    background: #000;
+    border-bottom: 1px solid #ddd;
+}
+
+
+/* =======footer end======= */
+.footer{
+    background: #000;
+}
+.footer p{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}

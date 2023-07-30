@@ -1,0 +1,241 @@
+@media(max-width:1600px){
+    
+}
+@media(max-width:1400px){
+    .img-div-text {
+        bottom: -46px;
+        right: 43px;
+    }
+}
+@media(max-width:1399px)and (min-width:1200px){
+    .play-btn-animation {
+        bottom: 68px;
+        right: 179px;
+    }
+}
+@media(max-width:1300px){
+    .tel-number {
+        display: none;
+    }
+}
+@media(max-width:1200px) and (min-width:992px){
+    .play-btn-animation {
+        bottom: 62px;
+        right: 117px;
+    }
+}
+@media(max-width:1200px){
+    .lekha h1 {
+        font-size: 44px;
+    }
+    .lekha p {
+        font-size: 17px; 
+    }
+    .img-div-text {
+        bottom: -53px;
+        right: 1px;
+    }
+}
+@media(max-width:1100px){
+    .head-btn .btn {
+        display: none;
+    }
+}
+@media(max-width:992px){
+    ul.our-primary-menu li ul {
+        left: 95px;
+    }
+    ul.our-primary-menu li:hover ul {
+        top: 43%;
+    }
+    .client-logo {
+        padding: 6%;
+    }
+    .step-timeline {
+        margin-bottom: 33px;
+    }
+    .team-member {
+        margin-bottom: 30px;
+    }
+    .bg-team { 
+        padding-bottom: 21px;
+        padding-top: 0px;
+    }
+    .service-tabs-item li {
+        width: 50%;
+        margin-bottom: 40px;
+    }
+
+}
+@media(max-width:992px) and (min-width:769px){
+    .img-div-text {
+        bottom: -60px;
+        right: -19px;
+    }
+    .img-div-text h2 {
+        color: #e73c3e;
+        font-size: 50px;
+    }
+    .img-div-text p {
+        font-size: 13px;
+    }
+    .img-div-text {
+        width: 150px;
+        height: 150px;
+    }
+    .finix-text h6 {
+        font-size: 16px;
+        margin-bottom: 7px;
+    }
+    .finix-text h1 {
+        font-weight: 400;
+        margin-bottom: 10px;
+        font-size: 23px;
+    }
+    .finix-text p {
+        font-size: 15px;
+        margin-bottom: 5px !important;
+    }
+    .finix-text span {
+        font-size: 18px;
+        margin-bottom: 1px;
+    }
+    .finix-text ul li {
+        padding: 1px 0;
+    }
+}
+@media(max-width:768px){
+    .about-img {
+        margin-bottom: 42px;
+    }
+    .play-btn-animation {
+        right: 120px;
+    }
+    .call-tittle {
+        font-size: 28px;
+        border-right: none;
+    }
+    .call-number .number a {
+        font-size: 30px;
+    }
+    .blog-item {
+        cursor: pointer;
+        margin-bottom: 33px;
+    }
+    .blog-img img {
+        width: 100%;
+    }
+    .service-tabs-item li {
+        width: 50%;
+        margin-bottom: 40px;
+    }
+}
+@media (max-width:768px) and (min-width:576px){
+    .feature-item::after {
+        content: '';
+        width: 90%;
+        height: 64%;
+        background: #fdebeb;
+        position: absolute;
+        top: -139px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        border-radius: 50%;
+    }
+}
+@media(max-width:576px){
+    .lekha h1 {
+        font-size: 36px;
+    }
+    .banner {
+        padding: 113px 0 0 0;
+    }
+    .client-logo {
+        text-align: center;
+    }
+    .client-logo ul {
+        padding-left: 0;
+    }
+    .logo-section {
+        padding: 14px 0;
+    }
+    .img-div-text {
+        bottom: -24px;
+        right: 82px;
+    }
+    .img-div-text h2 {
+        color: #e73c3e;
+        font-size: 50px;
+    }
+    .img-div-text p {
+        font-size: 13px;
+    }
+    .img-div-text {
+        width: 150px;
+        height: 150px;
+    }
+    .finix-text h6 {
+        font-size: 16px;
+        margin-bottom: 7px;
+    }
+    .about-section {
+        padding: 41px 0;
+    }
+    .member-img img {
+        width: 100%;
+    }
+    .footer-widget {
+        text-align: center;
+    }
+    .footer-widget ul {
+        justify-content: center;
+    }
+    .footer-contact-item {
+        justify-content: center;
+    }
+    .testimonial-content p {
+        font-size: 20px;
+    }
+    .service-tabs-item li {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .divIcon {
+        margin-top: 47px;
+    }
+    .graybg {
+        background: #f9fafb;
+        padding: 41px 0;
+    }
+    .box-4 {
+        top: 32px;
+    }
+    .blog-section {
+        padding-top: 0;
+        padding-bottom: 30px;
+    }
+    
+}
+@media (max-width:576px) and (mi-width:450px){
+    .feature-item::after {
+        top: -95px;
+    }
+}
+@media(max-width:450px){
+    .img-div-text {
+        bottom: -47px;
+        right: 9px;
+    }
+}
+@media(max-width:400px){
+    .lekha h1 {
+        font-size: 32px;
+    }
+}
+@media(max-width:360px){
+    .play-btn-animation {
+        bottom: 28px;
+        right: 87px;
+    }
+}

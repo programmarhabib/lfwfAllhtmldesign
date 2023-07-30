@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.full-width {
+    width: 1340px;
+    margin: 0 auto;
+}
+
+/* =========header========== */
+.header {}
+
+.header .logo {
+    background: #2e219a;
+    text-align: center;
+}
+
+.header .logo img {
+    width: 71px;
+    display: inline-block;
+    padding: 12px 0;
+}
+
+.header .menu {
+    background: #ff0000;
+    padding: 9px 0;
+}
+
+.header .menu ul {
+    list-style: none;
+    text-align: center;
+}
+
+.header .menu ul li {
+    display: inline-block;
+    padding: 10px 12px;
+    border-right: 1px solid #fff;
+    margin: 6px 2px;
+}
+
+.header .menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+}
+
+.header .menu ul li:last-child {
+    border-right: none;
+}
+
+/* ===========content=========== */
+.content {
+    background: url(https://i.ibb.co/3cWwBVF/pngtree-simple-creative-background-design-in-the-sky-backgroundcartoonlovelyplanetstarry-skyillustra.jpg) top center no-repeat;
+    height: 363px;
+    background-size: cover;
+    text-align: center;
+    padding: 20px;
+}
+
+.content h1 {
+    color: #fff;
+    padding-top: 100px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    color: #fff;
+    font-size: 15px;
+    padding: 10px 133px;
+    line-height: 25px;
+}
+
+.content .btn {}
+
+.content .btn a {
+    text-decoration: none;
+    background: #008000;
+    display: inline-block;
+    color: #fff;
+    padding: 6px 20px;
+    font-size: 12px;
+    margin-top: 28px;
+}
+
+/* ===========content2============ */
+.content2 {
+    background: url(https://i.ibb.co/MBqQsDW/pngtree-modern-double-color-futuristic-neon-background-image-351866.jpg) center top no-repeat;
+    height: 363px;
+    background-size: cover;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.content2 h1 {
+    color: #fff;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    background: #008000;
+}
+
+.content2 .para {
+    padding: 0px 195px;
+}
+
+.content2 p {
+    color: #111010;
+    font-size: 13px;
+    background: #ffff00;
+    line-height: 25px;
+}
+
+.content2 .btn {}
+
+.content2 .btn a {
+    text-decoration: none;
+    background: #131313;
+    display: inline-block;
+    color: #fff;
+    padding: 6px 20px;
+    font-size: 12px;
+    margin-top: 28px;
+}
+
+/* ===========content3============ */
+.content3 {
+    background: #4ab75c;
+}
+
+.content3 h1 {
+    text-align: center;
+    font-weight: 400;
+    padding: 35px 0;
+    font-size: 37px;
+}
+
+.content3 .article1 {}
+
+.content3 .article1 .imgdiv {
+    width: 429px;
+    display: inline-block;
+    text-align: right;
+    margin-right: 77px;
+}
+
+.content3 .article1 .imgdiv img {
+    width: 80px;
+}
+
+.content3 .article1 .arldiv1 {
+    width: 390px;
+    display: inline-block;
+    padding: 0;
+    margin-left: 44px;
+}
+
+.content3 .article1 .arldiv1 h3 {
+    font-size: 16px;
+}
+
+.content3 .article1 .arldiv1 p {
+    font-size: 13px;
+}
+
+.content3 .article1 {
+    padding: 50px 0;
+}
+
+
+.content3 .article2 {
+    padding: 40px 0;
+}
+
+.content3 .article2 .arldiv2 {
+    width: 390px;
+    display: inline-block;
+    padding: 0;
+    margin-left: 343px;
+}
+
+.content3 .article2 .arldiv2 h3 {
+    font-size: 16px;
+}
+
+.content3 .article2 .arldiv2 p {
+    font-size: 13px;
+}
+
+.content3 .article2 .imgdiv {
+    width: 402px;
+    display: inline-block;
+    /*! text-align: ; */
+    margin-left: 2px;
+}
+
+.content3 .article2 .imgdiv img {
+    width: 80px;
+}
+
+/* ===========footer============ */
+.footer {
+    background: #2c1a8e;
+
+    /*! padding: 20px 0; */
+}
+
+.footer ul {
+    list-style: none;
+    text-align: center;
+}
+
+.footer ul li {
+    display: inline-block;
+    border: 1px solid #fff;
+    padding: 9px 13px;
+    margin: 15px 5px;
+    border-radius: 10px;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: #fff;
+}

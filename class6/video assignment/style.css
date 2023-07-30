@@ -1,0 +1,22 @@
+h2{
+    text-align: center;
+    text-decoration: underline;
+
+    text-transform: uppercase;
+    word-spacing: 7px;
+    letter-spacing: 4px;
+    text-shadow: 3px 2px #d7b600;
+    font-family: 'Fuggles', cursive;
+}
+
+h3{
+   color: rgb(238, 36, 22);
+
+   background-color: rgba(216,8,8,.1);
+}
+p{
+    
+   line-height: 32px;
+   font-size: 20px;
+}
+ 

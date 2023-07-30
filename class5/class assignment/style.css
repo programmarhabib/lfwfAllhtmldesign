@@ -1,0 +1,73 @@
+.aligncenter{
+    text-align: center;
+}
+table{
+    background-color: #f8efba;
+}
+.table-h1{
+    color: #722f82;
+}
+.yell-col{
+    background-color: yellow;
+}
+.sat-col{
+    background-color: #f6b93b;
+}
+.sun-col{
+    background-color: #ff3f34;
+}
+.mon-col{
+    background-color: #0fbcf9;
+}
+.tuis-col{
+    background-color: #78e08f;
+}
+.wed-col{
+    background-color: #d980fa;
+}
+.thus-col{
+    background-color: #d1d8e0;
+}
+.teach-bg{
+    background-color: #ffcccc;
+}
+.course-101{
+    background-color: #ee82ee;
+}
+.course-102{
+    background-color: #8e4abe;
+}
+.course-103{
+    background-color: #2222fd;
+}
+.course-104{
+    background-color: #008000;
+}
+.course-106{
+    background-color: #ffa500;
+}
+.time-8{
+    background-color: #ff6b81;
+}
+.time-10{
+    background-color: #2ed573;
+}
+.room-bg{
+    background-color: #c4e538;
+}
+.para{
+    background-color: #d2d2d2;
+    color: #4e23c5;
+    font-size: 29px;
+    text-align: center;
+}
+.head-3{
+    color: #f52323;
+}
+.footerbg {
+    background-color: #45d76a;
+    color: #fff;
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+}

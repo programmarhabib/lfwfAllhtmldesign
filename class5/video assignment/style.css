@@ -1,0 +1,44 @@
+.head4 {
+    font-size: 50px;
+    color: white;
+    background-color: yellowgreen;
+    text-align: center;
+}
+
+h2{
+    color: #fff;
+    background-color: black;
+    text-align: right;
+}
+
+.para {
+    color: #241a6c;
+    background: gray;
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+body {
+    background-color: #ece5da;
+    text-align: center;
+  }
+  
+  h3 {
+    /* margin: 20px; */
+    font-family: "Paytone One";
+    color: #babecc;
+    text-transform: ;
+    letter-spacing: -2px;
+    word-spacing:15px;
+  }
+  
+  h3 span {
+    display: ;
+    margin: 11px 0 17px 0;
+    font-size: 80px;
+    line-height: 80px;
+    color:#eeeef0;
+    text-shadow: 0 13.36px 8.896px #c4b59d,0 -2px 1px #fff;
+    letter-spacing: -4px;
+  }

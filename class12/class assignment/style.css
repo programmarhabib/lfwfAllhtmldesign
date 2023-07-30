@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.full-width {
+    width: 1260px;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+/* =======header========== */
+.header {
+    background: #000000;
+}
+
+.header ul {
+    list-style: none;
+    text-align: center;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-right: -4px;
+    position: relative;
+}
+
+.header ul li a {
+    text-decoration: none;
+    padding: 62px 23px;
+    display: inline-block;
+    color: #b4a5a5;
+    font-size: 19px;
+}
+
+.header ul li a:hover {
+    color: #fff;
+
+}
+
+.header ul li:hover>a {
+    color: #fff;
+}
+
+/* =========dropdown-meni=========== */
+.header ul li ul {
+    position: absolute;
+    border-top: 3px solid #3c72d8;
+    top: 100%;
+    left: 0;
+    visibility: hidden;
+    transition: .5s;
+    transform: scaley(0);
+    opacity: 0;
+    transform-origin: top center;
+}
+
+.header ul li ul li {
+    width: 300px;
+    background: #000;
+    margin-right: 0;
+    border-bottom: 1px solid #282626;
+    position: relative;
+}
+
+.header ul li ul li a {
+    background: #000;
+    padding: 20px 0;
+    display: block;
+}
+
+.header ul li ul li a:hover {
+    background: #3c72d8;
+}
+
+/* ==========dropdownmenu========== */
+.header ul li:hover>ul {
+    visibility: visible;
+    opacity: 1;
+    transform: scaley(1);
+}
+
+/* ==========sub-dropdownmenu========== */
+
+.header ul li ul li ul {
+    top: 0;
+    left: 100%;
+    
+}
+
+.header ul li ul li ul li:first-child {
+    border-top: 1px solid #000;
+}
+
+.header ul li ul li ul li a {}
+
+.header ul li ul li ul li a:hover {}
+
+/* ==========sub-dropdownmenu (hover)========== */
+
+.header ul li ul li:hover ul {
+    visibility: visible;
+    opacity: 1;
+
+}
+
+.header ul li ul li:hover>a {
+    background: #3c72d8;
+}
+
+
+/* =======banner========= */
+.banner {
+    background: url(https://i.ibb.co/CPzWzwP/young-mens.jpg) top center no-repeat;
+    background-size: cover;
+
+    padding: 263px 0;
+    text-align: center;
+}
+
+.banner h1 {
+    display: inline-block;
+    background: #fff;
+    padding: 10px 20px;
+    font-size: 47px;
+    font-weight: 700;
+}
+
+.banner p {
+    background: #fff;
+    width: 95%;
+    margin: 20px auto;
+    font-size: 29px;
+}
+
+.banner a {
+    text-decoration: none;
+    color: #fff;
+    background: red;
+    padding: 12px 20px;
+    font-size: 20px;
+    margin-top: 17px;
+    display: inline-block;
+    border: 1px solid red;
+    transition: .5s;
+}
+
+.banner a:hover {
+    background: #fff;
+    color: #000;
+    border: 1px solid red;
+}
+
+/* =======list-style-outline========= */
+.outline {
+    border-top: 1px solid rgb(185, 172, 172);
+    border-right: 1px solid rgb(185, 172, 172);
+    padding: 10px 0;
+    text-align: center;
+    margin: 25px 0;
+}
+
+.outline ul {
+    list-style-position: outside;
+    margin: 20px 0;
+}
+
+.second {
+	width: 98%;
+}
+
+.third {
+    width: 97%;
+    margin: auto;  
+}
+
+.outline ul li {}
+
+.outline, .inside ul li span {
+    font-size: 18px;
+}
+.inside ul {
+    list-style-position: inside;
+}
+.inside {
+    box-shadow: 0 0 33px rgba(113, 107, 107, 0.09);
+    text-align: center;
+    margin: 25px 0;
+    padding: 66px 0px;
+}
+.firsti {
+    padding: 20px 2px;
+}
+.secondi {
+	padding: 20px 0;
+	width: 98%;
+}
+.thirdi {
+	padding: 19px 0;
+	width: 99%;
+}
+/* ===========contuct=========== */
+.contuct {
+	background: #ddd;
+	text-align: center;
+	padding: 50px 20px;
+}
+.form{}
+.contuct .email {
+    width: 673px;
+    padding: 16px 10px;
+    border: none;
+    font-size: 18px;
+    outline: none;
+    border-bottom: 1px solid red;
+}
+.contuct .email:hover{
+    outline: 1px solid red;
+    border-bottom: none;
+
+}
+.contuct .submit {
+    padding: 17px 40px;
+    background: red;
+    color: #fff;
+    margin-left: -5px;
+    font-size: 17px;
+    border: 1px solid red;
+}
+.contuct .submit:hover{
+    background: #fff;
+    color: #000;
+
+}
+/* ===========list-style=========== */
+.list-style {
+	text-align: center;
+	padding: 47px 10px;
+	border: 3px dotted #ddd;
+	margin-top: 41px;
+}
+.list-style h1 {
+	margin-bottom: 20px;
+}
+.list-style .list-style1{
+    width: 30%;
+    display: inline-block;
+}
+.list-style1 .firstlist {
+	list-style-type: lower-roman;
+}
+.list-style1 .secondlist {
+	list-style-type: square;
+}
+.list-style1 .thirdlist{
+	list-style-type: lower-greek;
+
+}
+.list-style1 li {
+    margin-bottom: 12px;
+}
+.list-style1 {
+    font-weight: bold;
+}
+/* ===========footer-section=========== */
+.footer-section {
+    background: #000;
+    padding: 30px 10px;
+    
+}
+.footer-section p {
+	text-align: center;
+	color: #d1cece;
+	font-weight: bold;
+}
+.footer-section ul{
+    list-style: none;
+    text-align: center;
+    margin-top: 30px;
+}
+.footer-section ul li{
+    display: inline-block;
+    margin: 0 5px;
+    
+
+}
+.footer-section ul li a:hover i{
+    background: rgb(248, 248, 157);
+}
+.footer-section ul li a i {
+    width: 35px;
+    height: 35px;
+    background: #5ea5fa;
+    line-height: 35px;
+    border-radius: 50%;
+    color: #000;
+    transition: .5s;
+}

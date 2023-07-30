@@ -1,0 +1,221 @@
+/* ========header========= */
+
+.logo img{
+    width: 134px;
+    display: block; 
+}
+.bg-header{
+    background: linear-gradient(to right,blue, yellow);
+    transition: 3s !important;
+    
+}
+.bg-header:hover{
+    background: linear-gradient(to right,rgb(0, 255, 170),red);
+    transition: 3s !important;
+}
+.menu a{
+    color: #fff !important;
+    font-size: 20px;
+}
+.carousel-caption{
+    color: blue !important;
+}
+.carousel-item img{
+    height: 500px !important;
+}
+.bg-collapse{
+    background: linear-gradient(to right, yellow, blue);  
+}
+.bg-card{
+    background: linear-gradient(to right,blue, yellow);
+}
+/* =========service======== */
+.bg-service{
+    background: linear-gradient(to right, yellow, blue);
+}
+.services {
+    padding-bottom: 30px;
+  }
+  
+  .services .icon-box {
+    padding: 60px 30px;
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 2px 0 35px 0 rgba(68, 88, 144, 0.12);
+    transition: all 0.3s ease-in-out;
+    border-radius: 8px;
+    z-index: 1;
+    text-align: center;
+  }
+  
+  .services .icon-box::before {
+    content: '';
+    position: absolute;
+    background: #fdeff2;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 100%;
+    transition: all 0.4s;
+    z-index: -1;
+  }
+  
+  .services .icon-box:hover::before {
+    background: #e43c5c;
+    top: 0;
+    border-radius: 0px;
+  }
+  
+  .services .icon {
+    margin-bottom: 15px;
+  }
+  
+  .services .icon i {
+    font-size: 48px;
+    line-height: 1;
+    color: #e43c5c;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .services .title {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  
+  .services .title a {
+    color: #111;
+  }
+  
+  .services .description {
+    font-size: 15px;
+    line-height: 28px;
+    margin-bottom: 0;
+  }
+  
+  .services .icon-box:hover .title a, .services .icon-box:hover .description {
+    color: #fff;
+  }
+  
+  .services .icon-box:hover .icon i {
+    color: #fff;
+  }
+
+  /* =========pricing====== */
+  .bg-priccing{
+    background: linear-gradient(to right,blue, yellow);
+    padding: 70px 0;
+  }
+  .pricing .box {
+    padding: 20px;
+    background: #f9f9f9;
+    text-align: center;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid #f9f9f9;
+  }
+  
+  .pricing .box h3 {
+    font-weight: 400;
+    padding: 15px;
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #493c3e;
+  }
+  
+  .pricing .box h4 {
+    font-size: 42px;
+    color: #e43c5c;
+    font-weight: 500;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .pricing .box h4 sup {
+    font-size: 20px;
+    top: -15px;
+    left: -3px;
+  }
+  
+  .pricing .box h4 span {
+    color: #bababa;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  
+  .pricing .box ul {
+    padding: 0;
+    list-style: none;
+    color: #493c3e;
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+  }
+  
+  .pricing .box ul li {
+    padding-bottom: 16px;
+  }
+  
+  .pricing .box ul i {
+    color: #e43c5c;
+    font-size: 18px;
+    padding-right: 4px;
+  }
+  
+  .pricing .box ul .na {
+    color: #ccc;
+    text-decoration: line-through;
+  }
+  
+  .pricing .box .btn-wrap {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .pricing .box .btn-buy {
+    display: inline-block;
+    padding: 8px 40px 10px 40px;
+    border-radius: 50px;
+    border: 2px solid #e43c5c;
+    color: #e43c5c;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    transition: 0.3s;
+  }
+  
+  .pricing .box .btn-buy:hover {
+    background: #e43c5c;
+    color: #fff;
+  }
+  
+  .pricing .recommended {
+    border-color: #e43c5c;
+  }
+  
+  .pricing .recommended .btn-buy {
+    background: #e43c5c;
+    color: #fff;
+  }
+  
+  .pricing .recommended .btn-buy:hover {
+    background: #d91e42;
+    border-color: #d91e42;
+  }
+  
+  .pricing .recommended-badge {
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    font-size: 13px;
+    padding: 3px 25px 6px 25px;
+    background: #fce6ea;
+    color: #e43c5c;
+    border-radius: 50px;
+  }

@@ -1,0 +1,34 @@
+CSS3 Animation
+
+properties:
+@keyframes
+animation-name
+animation-duration
+animation-delay
+animation-iteration-count
+animation-direction
+animation-timing-function
+animation-fill-mode
+animation
+
+animation-direction
+normal
+reverse
+alternate
+alternate-reverse
+
+animation-timing-function
+ease
+linear
+ease-in
+ease-out
+ease-in-out
+
+animation-fill-mode
+none
+forwards
+backwards
+both
+
+Shortcut
+animation: example 5s linear 2s infinite alternate;

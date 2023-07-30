@@ -1,0 +1,52 @@
+/* =====slider======== */
+.mid-txt{
+    top: 45% !important;
+    bottom: 55% !important;
+}
+.s-height{
+    height: 700px !important;
+}
+/* =========table======== */
+
+.table-bordered{
+    border: 1px solid #ccc;
+}
+tbody tr:nth-child(1){
+    background: #cddbf0e5;
+}
+tbody tr:nth-child(2){
+    background: #e2e3e5;
+}
+tbody tr:nth-child(3){
+    background: #c7dbd2;
+}
+tbody tr:nth-child(4){
+    background: #f8d7da;
+}
+tbody tr:nth-child(5){
+    background: #f2e7c3;
+}
+tbody tr:nth-child(6){
+    background: #cff4fc;
+}
+tbody tr:nth-child(7){
+    background: #ecedee;
+}
+tbody tr:nth-child(8){
+    background: #cfe2ff;
+}
+tbody tr:nth-child(9){
+    background: #c7dbd2;
+}
+/* =======tble-form========= */
+.bg-tbl-form{
+    background: #f8f9fa; 
+    padding-bottom: 30px;
+}
+/* ========card and progressbar======== */
+.bg-card{
+    border: 1px solid #d1d0d0 !important;
+}
+.bg-stretched-link{
+    background: #f8f9fa;
+}

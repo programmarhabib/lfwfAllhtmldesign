@@ -1,0 +1,123 @@
+@media(max-width:1320px){
+    .container {
+        width: 100%;
+        padding: 0 3%;
+        box-sizing: border-box;
+    }
+}
+
+@media(max-width:992px){
+    .about .imgdiv {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        height: 402px;
+    }
+    .about {
+        height: auto;
+        overflow: hidden;
+    }
+    .about .article {
+        width: 100%;
+        padding: 0 2%;
+        box-sizing: border-box;
+    }
+}
+@media(max-width:792px){
+    .floatleft {
+        width: 100%;
+        text-align: center;
+    }
+    .header .left-logo a {
+        display: inline-block;
+        width: 67%;
+        padding: 8px;
+    }
+    .header .right-menu {
+        text-align: center !important;
+        float: none;
+        padding-top: 82px;
+        display: block;
+        padding-bottom: 30px;
+    }
+    .bg-banner {
+        padding: 108px 0;
+    }
+    .service {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .blog .left-blog {
+        width: 100%;
+        padding: 0 3%;
+        box-sizing: border-box;
+    }
+    .blog .right-notice {
+        width: 100%;
+    }
+}
+/* bar css */
+.barmenu {
+    display: none;
+}
+@media(max-width:630px){
+    .banner h1 {
+        background: rgba(41, 120, 220, .4);
+        width: 79%;
+        margin: auto;
+        border-radius: 5px;
+        padding: 0 4%;
+        font-size: 26px;
+        box-sizing: border-box;
+    }
+    .blog .left-blog .blog-item img {
+        float: left;
+        width: 100%;
+        /* margin-right: 10px; */
+        margin-bottom: 20px;
+        box-sizing: border-box;
+    }
+    .header .right-menu ul li ul {
+       
+        display: none;
+    }
+    .header {
+        height: 62px;
+    }
+    .header .left-logo {
+        text-align: left;
+        float: left;
+    }
+    .header .left-logo a {
+        display: inline-block;
+        width: 27%;
+        padding-top: 10px;
+        text-align: center;
+    }
+    .header .right-menu {
+        position: relative;
+    }
+    .barmenu {
+        position: absolute;
+        top: 11px;
+        right: 37px;
+        display: block;
+    }
+    .barmenu i {
+        font-size: 29px;
+        color: #fff;
+    }
+    .header .right-menu ul {
+        display: none;
+    }
+}
+@media(max-width:442px){
+    .banner h2 {
+        font-size: 20px;
+        width: 62%;
+    }
+  
+}
+@media(max-width:442px){}
+@media(max-width:442px){}
+@media(max-width:442px){}

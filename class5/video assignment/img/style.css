@@ -1,0 +1,32 @@
+body {
+    background-color:#eeeef0;
+    text-align: center;
+
+  }
+  
+  h3 {
+    /* margin: 20px; */
+    font-family: "Paytone One";
+    color: #babecc;
+    text-transform: ;
+    letter-spacing: -2px;
+    word-spacing:15px;
+  }
+ 
+  h3 span {
+    display: ;
+    margin: 11px 0 17px 0;
+    font-size: 80px;
+    line-height: 80px;
+    color:#eeeef0;
+    text-shadow: 0 13.36px 8.896px #c4b59d,0 -2px 1px #fff;
+    letter-spacing: -4px;
+  }
+  .sada{
+    text-shadow: 0 13.36px 8.896px #c4b59d,0 -9px 1px #fff;
+  }
+  .nil{
+      color: #0b06fd;
+      text-shadow: 0 13.36px 8.896px #c4b59d,0 -2px 1px #04018b;
+
+  }

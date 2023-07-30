@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.containerfull{
+    width: 100%;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+/* =========header start========= */
+.bg-header{
+    background: #000;
+}
+.menu{
+
+}
+.menu ul{
+    list-style: none;
+    text-align: center;
+}
+.menu ul li{
+    display: inline-block;
+    margin-right: -4px;
+    position: relative;
+}
+.menu ul li a {
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	background: rgb(24, 23, 23);
+	padding: 15px 20px;
+	border-right: 3px solid #000;
+	font-size: 20px;
+	border-left: 3px solid #393333;
+    transition: .5s;
+}
+.menu ul li:first-child a{
+    border-left: none;
+}
+
+.menu ul li:hover > a{
+    background: rgb(1, 17, 32);
+    border-left: 3px solid rgb(0, 7, 14);
+    border-right: 3px solid #000;
+}
+.menu ul li:hover:first-child a{
+    border-left: none;
+}
+/* ======dropdown========= */
+.menu ul li ul{
+    position: absolute;
+    top: 150%;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: 1s;
+}
+.menu ul li:hover > ul{
+    visibility: visible;
+    opacity: 1;
+    top: 100%;
+    transform: rotate(360deg);
+}
+.menu ul li ul li {
+	display: block;
+	width: 300px;
+}
+.menu ul li ul li a {
+    display: block;
+    border-bottom: 3px solid #000;
+    border-top: 3px solid #292727;
+}
+.menu ul li ul li:first-child a{
+    border-left: none;
+}
+.menu ul li ul li:last-child a{
+    border-right: none;
+}
+/* =========subdrodown mwnu======== */
+.menu ul li ul li ul{
+    position: absolute;
+    left: 100%;
+    top: 0;
+}
+/* =========header start========= */
+
+
+/* =========banner start========= */
+.bg-banner{
+    background-image: url(https://i.postimg.cc/bJ2H6v87/bgimg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    text-align: center;
+}
+.banner img{
+    width: 150px;
+}
+.banner{
+    text-align: center;
+    width: 200px;
+    padding: 30px;
+    animation-name: habib;
+    animation-duration: 5s;
+    position: relative;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    display: inline-block;
+}
+@keyframes habib{
+    0%{left:0; top: 0;}
+    25%{left: 200px; top: 0;}
+    50%{left: 200px; top: 200px;}
+    75%{left: 0; top: 200px;}
+    100%{left: 0; top: 0;}
+}
+.banner1{
+    margin-right: 300px;
+}
+.banner2{
+    animation-direction: reverse;
+    margin-left: 300px;
+    animation-duration: 5s;
+}
+
+.banner h1{
+    color: #fff;
+}
+.banner p{
+    color: #fff;
+}
+/* =========banner end========= */
+
+/* =========about start========= */
+.bg-about{
+    background: #2ecc71;
+}
+.about {
+	padding: 80px 20px;
+}
+.about .transimg{
+    display: inline-block;
+    transition: all ease .5s;
+    
+}  
+.about .transimg:hover{
+    transform: rotate(360deg);
+}
+.about .mypic {
+	display: inline-block;
+	position: relative;
+	top: 0;
+	left: 0;
+	margin-right: 100px;
+	margin-left: 101px;
+}
+.about .mypic img {
+	width: 292px;
+}
+
+.about .mypic .aboutme{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    text-align: center;
+    background:rgba(5, 5, 5, 0.356);
+    transition: all ease 1s;
+    visibility: hidden;
+    opacity: 0;
+    color: #fff;
+}
+.about .mypic:hover .aboutme{
+    width: 100%;
+    height: 100%;
+    visibility: visible;
+    opacity: 1;
+    transform: rotate(360deg);
+}
+
+.about .mypic .aboutme h2 {
+	margin-top: 100px;
+}
+.about .article{
+    width: 60%;
+    display: inline-block;
+    transform: skew(20deg,20deg);
+    transition: all ease .7s;
+}
+
+.about .article:hover{
+    transform: none;
+}
+/* =========about end========= */
+
+/* =========service start========= */
+.bg-service{
+    background: #fff;
+    padding: 80px 20px;
+    clear: both;
+}
+
+.service{
+    
+}
+.service h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.service .service1 {
+	width: 23%;
+	display: inline-block;
+	padding: 10px;
+	box-shadow: 0 0 10px #ddd;
+	border-radius: 10px;
+	margin: 10px;
+    position: relative;
+}
+.service .service1:before{
+    content: ' Curser ta anan  ';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 20%;
+    color: #000;
+    font-size: 30px;
+    transition: .5s;
+}
+.service .service1 h3 {
+	text-align: center;
+	font-size: 29px;
+	margin: 19px 0;
+    position: relative;
+    bottom: 2000px;
+    transition: 1s;
+}
+.service .service1 p {
+	text-align: center;
+	padding: 11px;
+	font-size: 20px;
+    position: relative;
+    bottom: 2000px;
+    transition: 1s;
+}
+.service .service1:hover h3{
+    bottom: 0;
+    transform: rotate(360deg);
+}
+.service .service1:hover p{
+    bottom: 0;
+    transform: rotate(360deg);
+}
+.service .service1:hover::before{
+    visibility: hidden;
+}
+.service .service1:hover{
+    transform: scale(1.1);
+}
+/* =========service end========= */
+.bg-footer{
+    background: #000;
+    clear: both;
+}
+.footer{}
+.footer p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 20px;
+   
+}
+
+
+
+
+/* =========header start========= */
+/* =========header end========= */

@@ -1,0 +1,159 @@
+.text-center {
+    text-align: center !important;
+}
+
+.text-left {
+    text-align: left;
+}
+
+/* =================================
+            HEADER TOP
+================================ */
+.headban {
+    background: #000;
+}
+
+.header-top {
+    background: #0b1979;
+}
+
+.header-top h2 {
+    
+    font-family: 'Montserrat', sans-serif;
+    color: #c24b69;
+    
+}
+
+.header-top h2 .sub1 {
+    color: #eef8f3;
+}
+.header-top h2 .sub2 {
+    color: #eef8f3;
+}
+
+
+.header-top h2 .sup2 {
+    color: #74a8d1;
+}
+
+/* =================================
+            HEADER BOTTOM
+================================ */
+.header-bottom {
+    background: #047504;
+}
+
+.header-bottom p {
+    color: #fff;
+    font-family: 'Yellowtail', cursive;
+    font-size: 42px;
+}
+
+/* =================================
+            BANNER
+================================ */
+.bg-color {
+    background: #000000;
+}
+
+/* =================================
+            ABOUT US
+================================ */
+.about-us {
+    background: #eeeeee;
+}
+
+.about-us h2 {
+    background: #834646;
+    font-family: 'Yellowtail', cursive;
+    font-size: 70px;
+}
+
+.about-us p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+
+}
+
+/* =================================
+            SERVICE SECTION
+================================ */
+.service {
+    background: #eeeeee;
+}
+
+.service h1 {
+    font-family: 'Montserrat', sans-serif;
+    background: #297a48;
+    font-size: 71px;
+    font-weight: 200;
+}
+
+.servicep {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    color: #4d4073;
+}
+
+
+/* =================================
+         CONTUCT SECTION
+================================ */
+.contuct {
+    background: #eeeeee;
+}
+
+.contuct h1 {
+    background: #0d6efd;
+    font-family: 'Roboto', sans-serif;
+    font-size: 70px;
+    font-weight: 300;
+    color: #212529;
+}
+
+.marg {}
+
+.formwidth {
+    width: 300px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+
+
+/* =================================
+         FOOTER SECTION
+================================ */
+
+.footer-top {
+    background: #4f84c4;
+}
+
+.footer-top h1 {
+    font-family: 'Yellowtail', cursive;
+    font-size: 60px;
+    color: #fff;
+}
+
+.footer-top h2 {
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.footer-top p {
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 27px;
+}
+
+.main-footer {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    background: #000;
+}
+
+.main-footer p {
+    color: #fff;
+}

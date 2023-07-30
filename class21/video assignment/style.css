@@ -1,0 +1,25 @@
+.bg-header{
+    background: linear-gradient(to right,#c33764,#1d2671);
+}
+.nav-img img {
+    width: 116px;
+}
+
+.br-stretched{
+    background: linear-gradient(to right,#dd5e89,#f7bb97);
+}
+.bg-scrollspy{
+    background: linear-gradient(to right,#a1c4fd , #c2e9fb);
+}
+.bg-accordion{
+    background: linear-gradient(to right,#eecda3 ,  #ef629f);
+}
+.bg-form{
+    background: linear-gradient(to right,#ddd6f3 ,   #faaca8);
+}
+.bg-footer{
+    background: linear-gradient(to right,#3a1c71 ,   #d76d77, #ffaf7b);
+}
+.mid-img img{
+    height: 500px ;
+}

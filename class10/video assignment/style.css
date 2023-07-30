@@ -1,0 +1,215 @@
+#grad2 {
+    height: 200px;
+    background-color: #cccccc;
+    background-image: repeating-linear-gradient(red, yellow 10%, green 20%);
+}
+
+#grad1 {
+    height: 200px;
+    background-color: #cccccc;
+    background-image: repeating-radial-gradient(red, yellow 10%, green 15%);
+}
+
+.block {
+    margin: 8px 0;
+    padding: 0;
+    text-align: center;
+    padding: 10px 0;
+    font-size: large;
+    background: none;
+}
+
+.blockh {
+    background: greenyellow;
+    text-align: center;
+}
+
+/* ========block-level elements======= */
+address {
+    background: rgb(241, 7, 7);
+}
+
+article {
+    background: #FFC312;
+}
+
+aside {
+    background: #C4E538;
+}
+
+blockquote {
+    background: #12CBC4;
+}
+
+canvas {
+    background: #D980FA;
+}
+
+dd {
+    background: #B53471;
+}
+
+div {
+    background: #9980FA;
+}
+
+dl {
+    background: #FDA7DF;
+}
+
+dt {
+    background: #6F1E51;
+}
+
+fieldset {
+    background: #1B1464;
+}
+
+figcaption {
+    background: #006266;
+}
+
+figure {
+    background: #EE5A24;
+}
+
+footer {
+    background: #6F1E51;
+}
+
+form {
+    background: #B53471;
+}
+
+h1 {
+    background: #1abc9c;
+}
+
+h2 {
+    background: #2ecc71;
+}
+
+h3 {
+    background: #3498db;
+}
+
+h4 {
+    background: #f1c40f;
+}
+
+h5 {
+    background: #e67e22;
+}
+
+h6 {
+    background: #16a085;
+}
+
+header {
+    background: #27ae60;
+}
+
+li {
+    background: #2980b9;
+}
+
+main {
+    background: #2980b9;
+}
+
+nav {
+    background: #2980b9;
+}
+
+noscript {
+    background: #2980b9;
+}
+
+ol {
+    background: #2980b9;
+}
+
+p {
+    background: #2980b9;
+}
+
+pre {
+    background: #2980b9;
+}
+
+section {
+    background: #2980b9;
+}
+
+table {
+    background: #2980b9;
+}
+
+tfoot {
+    background: #2980b9;
+}
+
+lu {
+    background: #2980b9;
+}
+
+video {
+    background: #2980b9;
+}
+
+hr {
+    background: #f39c12;
+}
+
+/* ========block-level elements======= */
+.inline {
+    margin-right: 10px;
+}
+
+/* ==========menu========= */
+.menu {
+    background: #12CBC4;
+}
+
+.menu ul {
+    text-align: center;
+}
+
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+    border-right: 1px solid #fff;
+    padding: 14px 39px;
+    margin-left: -4px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: 1s;
+}
+
+.menu ul li:hover {
+    background: #000;
+
+}
+
+.menu ul li:last-child {
+    border-right: none;
+}
+
+/* ==========bg img========= */
+.bgimg {
+    background: url(https://i.ibb.co/s23CJ8D/roe-deers-in-a-clearing-medium-768x512.jpg) bottom center no-repeat fixed;
+    background-size: cover;
+    height: 500px;
+    border-radius: 50% 54% / 0% 67%;
+    margin-bottom: 500px;
+}
+
+.bgimg h2 {
+    color: #f9f6f6;
+    background: none;
+    text-align: center;
+    padding-top: 207px;
+}
